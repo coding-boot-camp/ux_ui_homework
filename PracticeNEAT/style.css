@@ -1,0 +1,112 @@
+.btn-primary {
+  color: white;
+  padding: 14px 45px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 999px;
+  background-color: #1280c9;
+  margin: 10px;
+}
+.btn-primary:hover {
+background-color: 
+}
+
+body {
+  font-weight: 400;
+  line-height: 2;
+  color: #4A535A;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.img {
+  display: none;
+} 
+
+
+@media (max-width: 768px) {
+  .jumbotron nav {
+    display: none !important;
+  }
+  .info {
+    text-align: center;
+  }
+  .large-header h1 {
+    display: none;
+  }
+  .image {
+    display: block;
+  }
+ }
+
+ 
+ @media (min-width: 768px) {
+  .small-header {
+    display: none;
+  }
+ }
+
+
+nav {
+  height: 15%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div[class^="col-"] {
+  margin-bottom: 30px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.bg {
+  background: url("assets/hero/hero-bg.png") no-repeat center top;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  /* same height as jumbotron */
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.icon {
+  position: absolute;
+}
+
+.icon-main {
+  background: url("assets/hero/hero.png") no-repeat center bottom;
+  width: 100%;
+  height: 532px;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -4;
+}
+
+.icon-trees {
+  background: url("assets/hero/hero-park.png") no-repeat left bottom;
+  position: absolute;
+  width: 100%;
+  height: 510px;
+  top: 0;
+  right: -8%;
+  z-index: -3;
+}
+
+.jumbotron {
+  margin-bottom: 50px;
+  height: 500px;
+  color: white;
+  background: transparent;
+  padding-top: 10px;
+}
+
+/* YOUR CODE HERE */
