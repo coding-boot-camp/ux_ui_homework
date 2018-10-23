@@ -1,0 +1,26 @@
+body {
+    padding-top: 54px;
+  }
+  
+  header .welcome {
+    margin-top: 3em;
+    margin-left: 600px;
+  }
+  .btn-primary {
+    background-color: darkblue;
+  }
+  .btn-primary:hover {
+    background-color: blue;
+  }
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .card {
+    height: 100%;
+  }
+ .jumbotron {
+background-color: black;
+ }
