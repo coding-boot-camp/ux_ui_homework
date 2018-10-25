@@ -1,0 +1,241 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5px;
+    width: 198px;
+    height: 99%;
+    background-color: #660000;
+    font-size: 25px;
+}
+
+li a {
+    display: grid;
+    color: #f1f1f1;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+.svg-icons, .usps-icons {
+    font-size: 50px;
+    margin-left: 450px;
+}
+li a:hover {
+    background-color: #350000;
+    color: white;
+    
+}
+nav {
+    position: absolute;
+    height:100%;
+}
+
+
+.section-container {
+   
+    margin-top: 0;
+    margin-left: 215px;
+    padding: 0;
+    height: 100%;
+    color: #000000;
+}
+.section-container2 {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+   margin-left: 80px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+article {
+    padding: 5px;
+}
+ h1 {
+      font-size: 60px;
+      font-family: 'Inconsolata', monospace;
+      text-align: center;
+      color: darkred;
+      
+  }
+  h2 {
+      font-size: 64px;
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: .5cm;
+      text-align: center;
+  }
+  h3 {
+      font: caption;
+      font-size: 36px;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+  h4 {
+    font: caption;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5 {
+    font: caption;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h6 {
+    font: caption;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  p {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px;  
+       font-size-adjust: initial;
+      margin: .3cm;
+      text-align: center;
+  }
+  #demobox {
+    background-color: #660000 ;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  #demobox2 {
+    background-color: #010055 ;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color:  white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  #demobox3 {
+    background-color: #FDDD0E;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+#demobox4 {
+    background-color: #17696F;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  #demobox5 {
+    background-color: #759AFF;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  #demobox6 {
+    background-color: #FF5454;
+    height: 50px;
+    width: 10%;
+    margin-left: 600px;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .button-normal {
+      Background-color: darkred;
+      color: white;
+      border-radius: 7px;
+      font-size: 25px;
+      padding: 7px;
+      box-shadow:5px 5px 8px #000000;
+      margin-bottom: 10px;
+      margin-left: 400px;
+      Margin-right: 5px;
+      border:none;
+
+  }
+  .button-hover {
+    Background-color: darkred;
+     opacity: 0.6;
+      color: white;
+      border-radius: 7px;
+      font-size: 25px;
+      padding: 7px;
+      box-shadow:5px 5px 8px #000000;
+      border:none;
+      Margin-right: 5px;
+  }
+
+
+  .button-pressed {
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 7px;
+    box-shadow:5px 5px 8px #000000;
+      background-color: #310000;
+      border:none;
+      Margin-right: 5px;
+
+  }
+  .buttonload {
+    background-color: darkred; /* Green background */
+    border: none; /* Remove borders */
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 7px;
+    box-shadow:5px 5px 8px #000000;
+    Margin-right: 5px;
+}
+.button-disabled :-moz-user-disabled {
+    Background-color: darkred;
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 7px;
+    box-shadow:5px 5px 8px #000000;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    Margin-right: 5px;
+    border:none;
+}

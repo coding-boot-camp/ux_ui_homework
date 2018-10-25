@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ============ Header content ============== -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- ======== Links to CSS ========= -->
+        <!-- Resets CSS -->
+        <link rel="stylesheet" href="CGagency.css">
+        <!-- Adds CSS from 16.2 -->
+        <link rel="stylesheet" href="CGagency.css">
+        <!-- Adds Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <!-- Adds Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- ======== End Links to CSS ======== -->
+</head>
+<!-- ============ Body content ============== -->
+<body>
+    <!-- 
+    ======================
+    Navigation / Sidebar
+    ======================
+    -->
+    <nav class="sidebar-container"></nav>
+
+
+
+
+<nav> <ul> 
+     <li> <a href="#Guidelines" >Guidelines</a> </li>
+            <li><a href="#Logo" >Logo Rules</a></li>
+            <li><a href="#Voice" >Our Voice</a></li>
+           <li><a href="#Typography" >Typography</a></li>
+           <li><a href="#Color" >Color</a></li>
+           <li> <a href="#Buttons" >Buttons</a> </li>
+           <li> <a href="#Icons" >Icons</a> </li>
+            <li> <a href="#Imagery" >Imagery</a></li>
+            <li><a href="#Footer" >Footer</a> </li>  </ul> </nav>
+    <aside>
