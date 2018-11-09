@@ -1,0 +1,21 @@
+.fade {
+  margin: 121px 149px;
+  width: 483px;
+  height: 298px;
+  background: #200080;
+  color: #fff;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 298px;
+
+  /* create base opacity */
+  opacity: 1.0;
+
+  /* add a transition */
+transition: 2s ease-in;
+}
+
+.fade:hover {
+  /* change opacity on hover */
+opacity: .5;
+}

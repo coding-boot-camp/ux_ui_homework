@@ -1,0 +1,49 @@
+#btn {
+  /* CODE HERE */
+  transition: 2s all;
+-moz-transition: 2s all;
+-webkit-transition: 2s all;
+width: 75px;
+  
+}
+
+#btn:hover {
+  background-color: blue;
+  border: darkblue;
+  width: 100px;
+  margin: 10px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 5px 5px 5px black;
+}
+
+#input {
+  /* CODE HERE */
+width: 100%;
+transition: 4s all ease-in-out;
+-moz-transition: 3s all;
+-webkit-transition: 3s all;
+}
+
+#input:focus {
+  width: 125px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.progress-bar {
+  /* CODE HERE */
+width:0%;
+transition: 5s all ease-in-out;
+-moz-transition: 5s all;
+-webkit-transition: 5s all;
+}
+
+#progress:hover .progress-bar {
+  /* CODE HERE */
+background-color: black;
+  width: 100%;
+  box-shadow: 5px 5px 5px blue;
+  height: 500px;
+  
+}

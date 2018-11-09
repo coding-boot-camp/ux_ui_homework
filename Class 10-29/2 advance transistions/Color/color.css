@@ -1,0 +1,19 @@
+.color {
+  margin: 121px 149px;
+  width: 483px;
+  height: 298px;
+  background: #676470;
+  color: #fff;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 298px;
+
+  /* add a transition */
+transition: 2s ease-out;
+}
+
+.color:hover {
+  /* change background here */
+background-color: black;
+color: blue;
+}

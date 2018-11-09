@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Form</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <table style="width: 50%" class="table">
+    <thead>
+      <tr>
+        <th scope="col">Type of Pie</th>
+        <th scope="col">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">Apple Pie</td>
+        <td>
+          <input id="apple" type="text" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">Pecan Pie</td>
+        <td>
+          <input id="pecan" type="text" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">Key Lime Pie</td>
+        <td>
+          <input id="keyLime" type="text" class="form-control">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button id="submitOrder" type="button" class="btn btn-primary" data-toggle="modal" data-target="#thankYouModal">Order Pies!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thank you for your order!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Confirm!</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="form.js"></script>
+
+  <!-- Bonus JS-->
+  <!-- <script src="formBonus.js"></script> -->
+</body>
+
+</html>

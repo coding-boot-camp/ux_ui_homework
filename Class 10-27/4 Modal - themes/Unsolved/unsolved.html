@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Theme Changer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link id="theme-stylesheet" rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="btn-group mb-5" role="group" aria-label="Basic example">
+      <button type="button" id="theme1" data-toggle="popover" data-trigger="hover" data-placement="bottom" class="theme-button btn btn-primary" data-content="this is theme one">theme1</button>
+      <button type="button" id="theme2" data-toggle="popover" data-trigger="hover"  data-placement="bottom" class="theme-button btn btn-secondary"data-content="this is theme 2">theme2</button>
+      <button type="button" id="theme3" class="theme-button btn btn-info">theme3</button>
+      <button type="button" id="theme4" class="theme-button btn btn-success">theme4</button>
+    </div>
+  </div>
+  <nav class="container navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container jumbotron">
+    <h1 class="display-3">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button"data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="">Learn more</a>
+    </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Primary card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Success card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Danger card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Type</th>
+          <th scope="col">Column heading</th>
+          <th scope="col">Column heading</th>
+          <th scope="col">Column heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-active">
+          <th scope="row">Active</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <th scope="row">Default</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-primary">
+          <th scope="row">Primary</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-secondary">
+          <th scope="row">Secondary</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">Success</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-danger">
+          <th scope="row">Danger</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">Warning</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-info">
+          <th scope="row">Info</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-light">
+          <th scope="row">Light</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-dark">
+          <th scope="row">Dark</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="unsolved.js"></script>
+</body>
+
+</html>

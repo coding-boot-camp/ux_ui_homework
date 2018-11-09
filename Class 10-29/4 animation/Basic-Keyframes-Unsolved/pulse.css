@@ -1,0 +1,64 @@
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: teal;
+  position: relative;
+  /* Alter code here */
+  animation: pulse 6s ease-in infinite;
+  animation-direction: alternate;
+ transition: 6s;
+}
+
+
+@keyframes pulse {
+
+    0%   {background: red; left: 0px; top: 0px; transform: rotate(90deg) scale(1.1,1.1) rotateY(90deg);}
+    25%  {background: yellow; left: 90%; top: 0px; transform: rotate(180deg) scale(2,2) rotateY(180deg);}
+    50%  {background: blue; left: 50%; top: 50%; transform: rotate(90deg) scale(2,3) rotateY(90deg);}
+    75%  {top: 0px; transform: rotate(180deg) scale(1.1,1.1) rotateY(180deg);}
+    100% {background: rgb(0, 0, 0); left: 0px; top: 0px; transform: scale(.5,.5) rotateY(0deg);}
+}
+.demobox {
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  border-radius: 10px;
+  background-color: teal;
+  position: relative;
+  /* Alter code here */
+  animation: box 4s ease-in infinite;
+  animation-direction: alternate-reverse;
+ 
+}
+@keyframes box {
+
+  100%   {background: green; left: 0px; top: 300px; transform: rotate(90deg) scale(1.1,1.1) rotateY(90deg);}
+  75%  {background: orange; left: 0%; top: 0px; transform: rotate(180deg) scale(2,2) rotateY(360deg);}
+  50%  {background: purple; left: 100%; top: 50%; transform: rotate(90deg) scale(2,3) rotateY(90deg);}
+  25%  {left: 100%; top: 0px; transform: rotate(180deg) scale(1.1,1.1) rotateY(360deg);}
+  0% {background: rgb(0, 0, 0); left: 0px; top: 300px; transform: scale(.5,.5) rotateY(0deg);}
+}
+.boxtwo {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  border-radius: 100%;
+  background-color: teal;
+  position: relative;
+  /* Alter code here */
+  animation: box 10s ease-in infinite alternate-reverse;
+ 
+}
+.boxthree {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  border-radius: 100%;
+  background-color: teal;
+  position: relative;
+  /* Alter code here */
+  animation: pulse 10s ease-in infinite alternate-reverse;
+ 
+}

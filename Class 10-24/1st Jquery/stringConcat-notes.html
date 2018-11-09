@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variables and Strings</title>
+</head>
+<body>
+
+    <script>
+        /*
+        TODO READ THE COMMENTS / DOCUMENTATION
+        Hello Class! This tutorial is a brief description of how variable work in javascript!
+        Before we begin please take the time to read the documentation below. There are going to be alot of new terms but continued exposure to the documentation and practicing you will quickly understand what these terms mean.
+
+        Official documentation for how variables work in javascript -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+
+        A variable is essentually a container for information (or functions) that you can modify / invoke (run the function) at will.
+
+        Variables can contain strings text/ numbers combined functions/ methods/ integers (words). Try copy pasting line 24 + 25 into the web inspector's console window and see what happens!
+        
+        var test = ("This is a string. A string is a series of numbers and letters that literally prints out to the pages. 2323154");
+        console.log(test);
+
+        Variables can also contain integers (numbers that can be used to run calculations in JS). Try copy pasting line 26 - 28 into the web inspector's console window and see what happens!
+        var number_1 = 1;
+        var number_2 = 2;
+        console.log(number_1 + number_2);
+
+        Variables are commonly used to target actual DOM (Document Object Model. Basically a fancy way of saying your html structure) elements.
+        We will get into this later. For now lets take a look at how you can assign variables dynamically (user input) or assign them in your program manually.
+        */
+
+        // The below is an example of how a variable can run a function.
+        // prompts user for name, name is stored as a "input" variable
+        var input = prompt("What is your name?"); // Prompt documentation https://www.w3schools.com/jsref/met_win_prompt.asp
+
+        // display two alerts, each using string concatenation with the "input" variable
+        alert("Hi, " + input + ".");
+        alert("You can do it, " + input + "!");
+        alert("Trying, " + input + ".")
+        alert(input + " Make sure you open the web inspect and check the console tab to see how we overwrite this variable you assigned with a different input and how your program reuses it.");
+
+        // changes the value of the input variable to "Susie Q."
+        // We reassign the variable that you entered earlier in the lesson with the value of "Susie Q". Variables are dynamic in nature and you can reuse them in your program.
+        input = "Susie Q.";
+
+        // logs the input variable
+        console.log("The 'input' variable now holds the value: " + input);
+        
+
+    </script>
+</body>
+</html>

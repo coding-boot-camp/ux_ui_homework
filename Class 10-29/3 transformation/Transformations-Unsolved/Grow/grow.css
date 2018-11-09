@@ -1,0 +1,18 @@
+.grow {
+  margin: 121px 149px;
+  width: 483px;
+  height: 298px;
+  background: #676470;
+  color: #fff;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 298px;
+  /* add transition here */
+  transition: 2S ease-in-out;
+}
+
+.grow:hover {
+  /* transform and scale here */
+  transform: scale(2,2);
+
+}

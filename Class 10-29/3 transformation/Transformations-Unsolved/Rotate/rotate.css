@@ -1,0 +1,17 @@
+.rotate {
+  margin: 121px 149px;
+  width: 483px;
+  height: 298px;
+  background: #676470;
+  color: #fff;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 298px;
+  /* add transition here */
+  transition: 1s ease-in-out;
+}
+
+.rotate:hover {
+  /* transform and rotate here */
+  transform: rotate(10deg);
+}
