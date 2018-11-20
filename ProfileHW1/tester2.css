@@ -1,0 +1,287 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Hero Image */
+
+.hero-image {
+  color: black;
+  opacity: 50%;
+  background-size: cover;
+  opacity: 10%;
+  height: 500px;
+  width: 100%;
+  background-image: url("CodingCard/Headers/Mainheaderattempt.png");
+}
+.hero-image .text {
+  display: none;
+}
+
+.hero-text #h1 {
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+  font-size:100px;
+}
+.hero-text #text {
+  font-family: 'Lobster', cursive;
+  align-content: center;
+  display: none;
+  margin: 60px;
+  margin-bottom: 10px;
+}
+.hero-text #texts {
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  display: none;
+  margin: 80px;
+}
+
+
+
+
+@media (max-width: 600px) {S
+  .hero-image .btn-primary {
+     text-align: center;
+   }
+  .hero-image {
+    background-size: auto;
+  }
+   .hero-image #text {
+     display: initial;
+   }
+   .hero-image #texts {
+    display: initial;
+  }
+   .hero-image .container {
+    display: none;
+  }
+  .hero-image .col-mg-4 {
+    display: none;
+  }
+  .hero-image .text-center {
+    display: none;
+  }
+ }
+
+.p {
+  font-size: 12px;
+}
+ .hero-image .container {
+  font-size: 30px;
+
+}
+
+/* Hero button-modal */
+
+
+#exampleModal {
+  text-align: center;
+  color: black;
+}
+  .btn-primary {
+    background-color: darkblue !important;
+    box-shadow: 2px 2px 12px rgb(168, 168, 168);
+    border: 10px;
+    transition: 1s;
+
+  }
+  .btn-primary:hover {
+    background-color:#5e9ae3 !important;
+    transform: scale(1.1,1.1);
+    border: none;
+  }
+  
+  @media (min-width: 600px) {
+    
+    .icon {
+      display: none;
+    }
+  }
+  @media (max-width: 600px)
+  {
+    .col-md-7 {
+      text-align: center;
+
+    }
+    .btn-primary {
+      margin-bottom: 40px;
+    }
+    .p-5 .img-fluid:hover {
+      transform: none;
+    }
+  }
+  .img-fluid {
+    box-shadow: 2px 2px 4px black;
+    transition: 1s;
+    z-index: 1000000000;
+    overflow: hidden;
+  }
+  .work {
+    text-align: center;
+
+  }
+
+  /* about section */
+  
+#about  {
+  background-color: white !important;
+  color: black;
+}
+.about .h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+}
+.about .h4 {
+  font-family: 'Courgette', cursive;
+}
+.btn-lg {
+  background-color: orangered !important;
+  border: none;
+  color: white !important;
+  box-shadow: 2px 2px 10px lightgrey;
+  margin: 10px;
+  transition: 2s;
+
+}
+.btn-lg:hover{
+  background-color:#5e9ae3 !important;
+  transform: scale(1.1,1.1);
+  color: black;
+  border: none;
+}
+
+.about .col-mg-3 {
+  margin: 10px;
+  align-content: center;
+  font-size: 14px;
+}
+
+/* about me modal */
+
+.btn-primary {
+  background-color: darkblue;
+  border: none;
+  color: white !important;
+  box-shadow: 2px 2px 10px grey;
+  padding: .75rem 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.333333;
+  border-radius: .3rem;
+  margin: 5px;
+}
+
+/* service tabs */
+
+ .card {
+  transition: 2s ease-in-out;
+  border: none !important;
+  width: 33%;
+  position: relative;
+}
+
+.card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  display: block;
+  height: auto;
+  width: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+/* Carousel */
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}
+
+
+
+
+  /*!
+   * Copyright 2018 Trilogy Education
+   */
+
+
+/* UX/ UI Design */
+

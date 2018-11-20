@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Hero Image */
+
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-image: url("CodingCard/Header-actvebanner-1.png");
+
+}
+
+
+/* Content */
+.process {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 25px;
+}
+
+
+  /*!
+   * Copyright 2018 Trilogy Education
+   */
+
+
+/* UX/ UI Design */
+
+

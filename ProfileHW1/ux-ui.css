@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Hero Image */
+
+.hero-image {
+  color: black;
+  opacity: 50%;
+  background-size: cover;
+  opacity: 10%;
+  height: 350px;
+  width: 100%;
+  background-image: url("CodingCard/UX-UIDesign.png");
+  margin: 0px !important;
+}
+.hero-image .text {
+  display: none;
+}
+
+.hero-text #h1 {
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+  font-size:100px;
+}
+.hero-text #text {
+  font-family: 'Lobster', cursive;
+  align-content: center;
+  display: none;
+  margin: 60px;
+  margin-bottom: 10px;
+}
+.hero-text #texts {
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  display: none;
+  margin: 80px;
+}
+
+
+
+
+@media (max-width: 600px) {S
+  .hero-image .btn-primary {
+     text-align: center;
+   }
+  .hero-image {
+    background-size: auto;
+  }
+   .hero-image #text {
+     display: initial;
+   }
+   .hero-image #texts {
+    display: initial;
+  }
+   .hero-image .container {
+    display: none;
+  }
+  .hero-image .col-mg-4 {
+    display: none;
+  }
+  .hero-image .text-center {
+    display: none;
+  }
+ }
+
+.p {
+  font-size: 12px;
+}
+ .hero-image .container {
+  font-size: 30px;
+
+}
+
+/* Hero button-modal */
+
+
+#exampleModal {
+  text-align: center;
+  color: black;
+}
+  .btn-primary {
+    background-color: darkblue !important;
+    box-shadow: 2px 2px 12px rgb(168, 168, 168);
+    border: 10px;
+    transition: 1s;
+
+  }
+  .btn-primary:hover {
+    background-color:#5e9ae3 !important;
+    transform: scale(1.1,1.1);
+    border: none;
+  }
+  
+  @media (min-width: 600px) {
+    
+    .icon {
+      display: none;
+    }
+  }
+  @media (max-width: 600px)
+  {
+    .col-md-7 {
+      text-align: center;
+
+    }
+    .btn-primary {
+      margin-bottom: 40px;
+    }
+    .p-5 .img-fluid:hover {
+      transform: none;
+    }
+  }
+  .img-fluid {
+    box-shadow: 2px 2px 4px black;
+    transition: 1s;
+    z-index: 1000000000;
+    overflow: hidden;
+  }
+  .work {
+    text-align: center;
+
+  }
+
+  /* about section */
+  
+#about  {
+  background-color: white !important;
+  color: black;
+}
+.about .h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+}
+.about .h4 {
+  font-family: 'Courgette', cursive;
+}
+.btn-lg {
+  background-color: orangered !important;
+  border: none;
+  color: white !important;
+  box-shadow: 2px 2px 10px lightgrey;
+  margin: 10px;
+  transition: 2s;
+
+}
+.btn-lg:hover{
+  background-color:#5e9ae3 !important;
+  transform: scale(1.1,1.1);
+  color: black;
+  border: none;
+}
+
+.about .col-mg-3 {
+  margin: 10px;
+  align-content: center;
+  font-size: 14px;
+}
+
+/* about me modal */
+
+.btn-primary {
+  background-color: darkblue;
+  border: none;
+  color: white !important;
+  box-shadow: 2px 2px 10px grey;
+  padding: .75rem 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.333333;
+  border-radius: .3rem;
+  margin: 5px;
+}
+
+/* service tabs */
+
+.row .card {
+  transition: 2s;
+  height: 225px;
+  border: none;
+  border-radius: none;
+}
+.row .card:hover {
+  -webkit-transform: rotateY(180deg);
+     transform: rotateY(180deg);
+} 
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Carousel */
+
+.carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item  + .carousel-item {
+   width: 33.3%;
+   display: block;
+   float:left;
+} 
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image:none !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+  display: none !important;
+}
+.carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img {
+  line-height: 1;
+  margin: 0 auto;
+}
+.carousel-control.left {
+  left: 0;
+  background-image:none !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+  color: black;
+}
+
+   @media (min-width: 544px){
+   .carousel-control .icon-next {
+       color: black;
+       margin-right: -55px !important;
+   }
+  } */
+/* navbar */
+.navbar {
+  border-radius: none !important;
+  background-color: darkblue;
+}
+.navbar-toggler {
+  align-items: right !important;
+}
+
+
+  /*!
+   * Copyright 2018 Trilogy Education
+   */
+
+
+/* UX/ UI Design */
+
+
