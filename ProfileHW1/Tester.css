@@ -198,7 +198,7 @@
   height: auto;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 1s ease;
   background-color:black;
 }
 
